@@ -1,0 +1,82 @@
+html {
+	color: #192a6b;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+header {
+	display: flex;
+	position: fixed;
+}
+
+
+
+.logo_banque {
+	height: 70px;
+}
+
+.roue_reglages {
+	width: 40px;
+	height: 40px;
+}
+
+.bulle_aide {
+	width: 42px;
+	height: 42px;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	text-align: center;
+}
+
+.logo_virement {
+	width: 150px;
+}
+
+.action {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+
+.cercle_action {
+	height: 250px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 8px 12px 10px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+	background: linear-gradient(
+		139.52deg,
+		rgba(228, 232, 235, 0.16) -2.16%,
+		rgba(217, 217, 217, 0.13) 99.67%
+	);
+	margin-right: 30px;
+}
+
+.arrow {
+	width: 25px;
+	height: 45px;
+}
+
+.form_footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
+
+.illu_footer {
+	width: 90%;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
