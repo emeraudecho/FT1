@@ -13,33 +13,91 @@
 
     <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/customcss/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<!--HEADER-->
-		<header >
-			<div>
-				<img src="img/BANQUE_POPULAIRE_LOGO_COMPACT_2LG_RVB-1024x877 1.png" class="logo_banque"/>
-				<h2>BONJOUR<br />THERESE</h2>
-			</div>
-			<img src="img/roue.png" alt="paramètre" class="roue_reglages" />
-			<img src="img/help.png" alt=""	class="bulle_aide" />
+		<header>
+
+			<div class="col-1"></div>
+			<div class="col-6"><img src="assets/img/BANQUE_POPULAIRE_LOGO_COMPACT_2LG_RVB-1024x877 1.png" class="logo_banque"/></div>
+			<div class="col-2"><img src="assets/img/roue.png" alt="paramètre" class="roue_reglages header_icon"/></div>
+			<div class="col-1"></div>
+			<div class="col-2"><img src="assets/img/help.png" alt="aide" class="bulle_aide header_icon"/></div>
 			
 		</header>
+		<div class="prenom_client"><h2>BONJOUR<br />THERESE</h2></div>
+
 		<!--MAIN BODY-->
-		<div class="section1">
+		<!-- <div class="section1">
 			<div class="action">
 				<section class="cercle_action">
-					<img src="img/virement.png" alt="" class="logo_virement" />
+					<img src="assets/img/virement.png" alt="" class="logo_virement" />
 				</section>
-				<img src="img/arrow_right.png" alt="" class="arrow" />
+				<img src="assets/img/arrow_right.png" alt="" class="arrow" />
 			</div>
 			<h2>EFFETUER<br />UN VIREMENT</h2>
-		</div>
+		</div> -->
+
+		<!-- CAROUSEL-->
+		<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<section class="cercle_action">
+					<img src="assets/img/virement.png" class="d-block w-100 " alt="virement">
+				</section>
+			</div>
+
+			  <div class="carousel-item ">
+				<section class="cercle_action">
+					<img src="assets/img/virement.png" class="d-block w-100 " alt="virement">
+				</section>
+			  </div>
+
+			
+			  <div class="carousel-item ">
+				<section class="cercle_action">
+					<img src="assets/img/virement.png" class="d-block w-100 " alt="virement">
+				</section>
+			  </div>
+			  
+			  
+			  <div class="carousel-item ">
+				<section class="cercle_action">
+					<img src="assets/img/virement.png" class="d-block w-100 " alt="virement">
+				</section>
+			  </div>
+			  
+			
+			  
+			  <div class="carousel-item ">
+				<section class="cercle_action">
+					<img src="assets/img/virement.png" class="d-block w-100 " alt="virement">
+				</section>
+			  </div>
+			  
+			</section>
+  <!--B-->
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			  
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+		
+		
 		<!--FOOTER-->
 		<footer>
-			<img src="img/VectorBottom.png" alt="" class="form_footer" />
-			<img src="img/Illu miniBottom.png" alt="" class="illu_footer" />
+			<img src="assets/img/VectorBottom.png" alt="" class="form_footer" />
+			<img src="assets/img/Illu miniBottom.png" alt="" class="illu_footer" />
 		</footer>
+
+		<!--JS-->
+		<script src="assets/js/bootstrap.bundle.min.js" ></script>
 	</body>
 </html>

@@ -1,0 +1,100 @@
+html {
+	color: #192a6b;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+h2{
+	font-family:  ;
+}
+
+
+.prenom_client{
+	margin-left: 8.33333333%;
+	margin-top: 3px;
+}
+
+.logo_banque {
+	height: 70px;
+}
+
+.roue_reglages {
+	width: 42px;
+	height: 42px;
+	margin-left: 16px;
+}
+
+.bulle_aide {
+	width: 42px;
+	height: 42px;
+}
+
+	.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	text-align: center;
+}
+
+.logo_virement {
+	width: 10px;
+}
+
+.action {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+
+.cercle_action {
+	height: 250px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 8px 12px 10px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+	background: linear-gradient(
+		139.52deg,
+		rgba(228, 232, 235, 0.16) -2.16%,
+		rgba(217, 217, 217, 0.13) 99.67%
+	);
+	margin-right: 30px;
+}
+
+.arrow {
+	width: 25px;
+	height: 45px;
+}
+
+.form_footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
+
+.illu_footer {
+	width: 90%;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
